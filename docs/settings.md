@@ -2,7 +2,7 @@
 
 There are very few settings in Structura because almost everything is active by default
 
-## Enable strict copy (for non enurable properties)
+## Enable strict copy (for non enumerable properties)
 
 The default algorythm for creating a shallow copy is fast but ignores non enumerable properties. This could be a problem with some libraries like vue and mobx which trap the values. In order to solve this problem, just enable strict copy:
 
